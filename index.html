@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="part-box">
+            <div class="left-part">
+                <img class="avatar" src="./images/avatar.svg" alt="Avatar's picture" width="200" height="200">
+                <div class="left-part-bottom">
+                    <h1 class="left-part-heading">Let’s get you set up</h1>
+                    <p class="left-part-text">Itshould only take a couple of minutes to pair with your watch</p>
+                    <div class="left-part-link-box">
+                        <a class="next"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                <form class="form-box" action="https://echo.htmlacademy.ru/courses" autocomplete="off">
+                    <label class="label-for-name inp-wrapper" for="userName">Name
+                        <input class="inp-basket" type="text" id="userName" name="user_name"  placeholder="Name" required >
+                    </label>
+                    <div class="gender-box">
+                        <p class="gender-text">Gender</p>
+                        <label class="label-for-male label-for-gender">Male
+                            <input class="inp-male visually-hidden" type="radio" name="user_gender" value="male" unchecked>
+                            <span class="male"></span>
+                        </label>
+                        <label class="label-for-female label-for-gender">Female
+                            <input class="inp-female visually-hidden" type="radio" name="user_gender" value="female" unchecked>
+                            <span class="female"></span>
+                        </label>
+                    </div>
+                    <label class="label-for-date inp-wrapper" for="DateOfBirth">Date of birth
+                        <input class="inp-basket" type="date" id="DateOfBirth" name="user_date" placeholder="01/02/1983" required>
+                    </label>
+                    <label class="label-for-email inp-wrapper" for="userEmail">Email
+                        <input class="inp-basket" type="email" id="userEmail" name="user_email" aria-label="Enter your email" placeholder="kendall@emailcom" required >
+                    </label>
+                    <label class="label-for-mobile inp-wrapper" for="userTel">Mobile
+                        <input class="inp-basket" type="tel" id="userTel" name="user_tel" placeholder="+91 98765 43210" required>
+                    </label>
+                    <label class="label-for-id inp-wrapper" for="userId">Customer ID
+                        <input class="inp-basket" type="text" id="userId" name="user_id" placeholder="576802-ERD0348 45" required>
+                    </label>
+                    <div class="radiowrapper">
+                        <p class="membership">Membership</p>
+                        <div class="label-box">
+                            <label class="label-for-member" for="classic">Classic
+                                <input class="inp-classic visually-hidden" type="radio" id="classic" name="user_membership" value="classic" unchecked>
+                                <span class="classic"> </span>
+                            </label>
+                            <label class="label-for-member" for="silver">Silver
+                                <input class="inp-silver visually-hidden" type="radio" id="silver" name="user_membership" value="silver" unchecked>
+                                <span class="silver"></span>
+                            </label>
+                            <label class="label-for-member" for="gold">Gold
+                                <input class="inp-gold visually-hidden" type="radio" id="gold" name="user_membership" value="gold" unchecked>
+                                <span class="gold"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button-box">
+                        <button class="button-basket" type="reset">CANCEL</button>
+                        <button class="button-basket" type="submit">SAVE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
